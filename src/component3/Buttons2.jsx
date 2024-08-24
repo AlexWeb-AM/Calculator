@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import "./buttons2.css";
 import { CalcContext } from "../Context";
+import { evaluate } from 'mathjs';
 
 
 function Buttons2({value2}) {
@@ -18,7 +19,7 @@ function Buttons2({value2}) {
             if (value2 === "="){
                 let last_element = v.val.slice(-1)
                 if (!operators.includes(last_element)){
-                    v.setVal(String(eval(v.val)))   
+                    v.setVal(String(evaluate(v.val)))   
                 }
                 else {
                     alert("ERROR")
