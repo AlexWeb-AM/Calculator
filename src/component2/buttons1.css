@@ -1,0 +1,16 @@
+.buttons_div {
+    display: inline-block;
+    margin: 5px;
+    display: block;
+  }
+  
+  .buttons_div button {
+    width: 55px;
+    height: 55px; 
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: #6e6397;
+    color: #cfcfcf;
+  }

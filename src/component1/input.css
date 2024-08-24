@@ -1,0 +1,23 @@
+.input_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.input {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+.input:focus-visible {
+    outline: none;
+    
+}
